@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">PolymorphicAdsSample</string>
+
+    <!-- MainActivity ListView Items-->
+    <string-array name="ad_list_array">
+        <item>Banner</item>
+        <item>Double Size Banner</item>
+        <item>Twin Panel</item>
+        <item>Interstitial</item>
+        <item>Infeed</item>
+        <item>Popup</item>
+        <item>Slide in</item>
+        <item>Carousel</item>
+        <item>Picture in Picture</item>
+        <item>Force Movie</item>
+        <item>Rectangle Movie</item>
+    </string-array>
+
+    <!-- コールバック -->
+    <string name="on_success_init_request">広告ユニット初期化成功</string>
+    <string name="on_failure_init_request">広告ユニット初期化失敗</string>
+    <string name="on_failure_send_ad_request">広告取得リクエスト送信失敗</string>
+    <string name="on_success_response_ad_request">広告取得レスポンス受信成功</string>
+    <string name="on_failure_response_ad_request">広告取得レスポンス受信失敗</string>
+    <string name="on_receive_no_ads">受信広告無し</string>
+    <string name="on_success_show_ad">広告表示成功</string>
+    <string name="on_failure_show_ad">広告表示失敗</string>
+    <string name="on_skip_show_ad">広告表示スキップ</string>
+    <string name="on_close_ad">広告表示終了</string>
+    <string name="on_success_click_ad">広告クリック成功</string>
+    <string name="on_failure_click_ad">広告クリック失敗</string>
+    <string name="on_ready_play_movie">動画再生準備完了</string>
+    <string name="on_failure_prepare_play_movie">動画再生準備失敗</string>
+    <string name="on_complete_play_movie">動画再生完了</string>
+    <string name="on_failure_use_overlay">Overlay使用許可が設定されていない</string>
+
+    <!-- 広告ステータス -->
+    <string name="now_preparing">広告表示準備中</string>
+    <string name="now_on_display">広告表示中</string>
+    <string name="perform_force_close">広告強制非表示実行</string>
+</resources>
