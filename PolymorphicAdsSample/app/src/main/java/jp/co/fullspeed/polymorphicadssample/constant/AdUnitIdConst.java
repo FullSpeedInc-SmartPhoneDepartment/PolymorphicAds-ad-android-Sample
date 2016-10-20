@@ -19,4 +19,10 @@ public interface AdUnitIdConst {
     String TWIN_PANEL_AD_UNIT_ID = "5417960a57a28fc1f956e089ce30a971";
     // double size banner ad unit id
     String DOUBLE_SIZE_BANNER_AD_UNIT_ID = "5417960a57a28fc1e4aa42375c5e2661";
+    // rectangle banner ad unit id
+    String RECTANGLE_BANNER_AD_UNIT_ID = "5417960a57a28fc1b8a162a552b6abc6";
+    // infeed ad unit id
+    String INFEED_AD_UNIT_ID = "5417960a57a28fc1bc72f67fd00b02c5";
+    // carousel ad unit id
+    String CAROUSEL_AD_UNIT_ID = "5417960a57a28fc1efca4f44ccb60265";
 }

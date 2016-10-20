@@ -31,10 +31,10 @@ android {
 
 repositories {
 
-    // Githubにアップした
     maven {
         url 'https://github.com/FullSpeedInc-SmartPhoneDepartment/PolymorphicAds-ad-android/raw/master/maven-repo'
     }
+
 }
 
 dependencies {
@@ -46,5 +46,5 @@ dependencies {
     compile 'com.google.android.gms:play-services-ads:9.2.0'
 
     // PolymorphicAds Android SDK
-    compile 'jp.co.fs.sp:polymorphicads-ad-sdk:1.0.3@aar'
+    compile 'jp.co.fs.sp:polymorphicads-ad-sdk:1.2.0@aar'
 }

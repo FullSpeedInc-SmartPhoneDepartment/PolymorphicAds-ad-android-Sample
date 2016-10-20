@@ -13,10 +13,13 @@ import java.util.Arrays;
 
 import jp.co.fullspeed.polymorphicads.PolymorphicAds;
 import jp.co.fullspeed.polymorphicadssample.ad.BannerAdActivity;
+import jp.co.fullspeed.polymorphicadssample.ad.CarouselAdActivity;
 import jp.co.fullspeed.polymorphicadssample.ad.DoubleSizeBannerAdActivity;
 import jp.co.fullspeed.polymorphicadssample.ad.ForceMovieAdActivity;
+import jp.co.fullspeed.polymorphicadssample.ad.InfeedAdActivity;
 import jp.co.fullspeed.polymorphicadssample.ad.InterstitialAdActivity;
 import jp.co.fullspeed.polymorphicadssample.ad.PopupAdActivity;
+import jp.co.fullspeed.polymorphicadssample.ad.RectangleBannerActivity;
 import jp.co.fullspeed.polymorphicadssample.ad.RectangleMovieAdActivity;
 import jp.co.fullspeed.polymorphicadssample.ad.SlideInAdActivity;
 import jp.co.fullspeed.polymorphicadssample.ad.TwinPanelAdActivity;
@@ -67,12 +70,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case "Twin Panel":
                 clazz = TwinPanelAdActivity.class;
                 break;
+            case "Rectangle Banner":
+                clazz = RectangleBannerActivity.class;
+                break;
             case "Interstitial":
                 clazz = InterstitialAdActivity.class;
                 break;
             case "Infeed":
-                Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
-                return;
+                clazz = InfeedAdActivity.class;
+                break;
             case "Popup":
                 clazz = PopupAdActivity.class;
                 break;
@@ -80,8 +86,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 clazz = SlideInAdActivity.class;
                 break;
             case "Carousel":
-                Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
-                return;
+                clazz = CarouselAdActivity.class;
+                break;
             case "Picture in Picture":
                 Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
                 return;
