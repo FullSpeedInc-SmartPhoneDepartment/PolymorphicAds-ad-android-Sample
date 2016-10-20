@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         PolymorphicAds.setTestMode(true);
 
         // （任意） ログ出力設定（デフォルトはfalse, リリース時は削除するかfalseにする）
-        PolymorphicAds.setLoggingMode(true);
+        PolymorphicAds.setLoggingMode(false);
 
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
