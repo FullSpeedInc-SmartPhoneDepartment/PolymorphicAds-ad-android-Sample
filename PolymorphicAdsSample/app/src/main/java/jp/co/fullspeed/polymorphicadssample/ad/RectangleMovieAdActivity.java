@@ -138,5 +138,10 @@ public class RectangleMovieAdActivity extends AppCompatActivity implements
     public void onCompletePlayMovie(String adUnitId, PolymorphicAds.AdType adType) {
         Log.i(this.getClass().getSimpleName(), "AdType[" + adType.name() + "] " + getString(R.string.on_complete_play_movie));
     }
+
+    @Override
+    public void onExpandedAdView(String adUnitId, PolymorphicAds.AdType adType) {
+        Log.i(this.getClass().getSimpleName(), "AdType[" + adType.name() + "] " + "ユーザータップによる拡大イベント");
+    }
 }
 

@@ -43,7 +43,8 @@
         <activity android:name=".ad.TwinPanelAdActivity" />
         <activity android:name=".ad.RectangleBannerActivity" />
         <activity android:name=".ad.InfeedAdActivity" />
-        <activity android:name=".ad.CarouselAdActivity"></activity>
+        <activity android:name=".ad.CarouselAdActivity" />
+        <activity android:name=".ad.PInPMovieAdActivity"></activity>
     </application>
 
 </manifest>

@@ -23,6 +23,7 @@ import jp.co.fullspeed.polymorphicadssample.ad.RectangleBannerActivity;
 import jp.co.fullspeed.polymorphicadssample.ad.RectangleMovieAdActivity;
 import jp.co.fullspeed.polymorphicadssample.ad.SlideInAdActivity;
 import jp.co.fullspeed.polymorphicadssample.ad.TwinPanelAdActivity;
+import jp.co.fullspeed.polymorphicadssample.ad.PInPMovieAdActivity;
 
 import jp.co.fullspeed.polymorphicads.PolymorphicAds;
 
@@ -34,7 +35,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         setContentView(R.layout.activity_main);
 
         // （任意） テストモード設定（デフォルトはtrue, リリース時はfalseにする）
-        PolymorphicAds.setTestMode(true);
+        PolymorphicAds.setTestMode(false);
+//        PolymorphicAds.setTestMode(true);
 
         // （任意） ログ出力設定（デフォルトはfalse, リリース時は削除するかfalseにする）
         PolymorphicAds.setLoggingMode(false);
@@ -89,8 +91,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 clazz = CarouselAdActivity.class;
                 break;
             case "Picture in Picture":
-                Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
-                return;
+                clazz = PInPMovieAdActivity.class;
+                break;
             case "Force Movie":
                 clazz = ForceMovieAdActivity.class;
                 break;

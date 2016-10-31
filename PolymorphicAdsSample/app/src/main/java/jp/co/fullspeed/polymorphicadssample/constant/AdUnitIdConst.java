@@ -20,9 +20,11 @@ public interface AdUnitIdConst {
     // double size banner ad unit id
     String DOUBLE_SIZE_BANNER_AD_UNIT_ID = "5417960a57a28fc1e4aa42375c5e2661";
     // rectangle banner ad unit id
-    String RECTANGLE_BANNER_AD_UNIT_ID = "5417960a57a28fc1b8a162a552b6abc6";
+    String RECTANGLE_BANNER_AD_UNIT_ID = "d53b605de1198219f09f3a23b3272e0e";
     // infeed ad unit id
     String INFEED_AD_UNIT_ID = "5417960a57a28fc1bc72f67fd00b02c5";
     // carousel ad unit id
     String CAROUSEL_AD_UNIT_ID = "5417960a57a28fc1efca4f44ccb60265";
+    // picture in picture ad unit id
+    String P_IN_P_AD_UNIT_ID = "5417960a57a28fc1f13d0e28cce289ff";
 }
