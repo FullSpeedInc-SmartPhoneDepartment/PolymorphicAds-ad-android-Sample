@@ -47,6 +47,6 @@ dependencies {
     compile 'com.google.android.gms:play-services-ads:9.2.0'
 
     // PolymorphicAds Android SDK
-    compile 'jp.co.fs.sp:polymorphicads-ad-sdk:1.3.0@aar'
+    compile 'jp.co.fs.sp:polymorphicads-ad-sdk:1.4.0@aar'
 
 }
