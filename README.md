@@ -1,3 +1,3 @@
 # PolymorphicAds-ad-android-Sample
 
-### 2016/10/31 1.3.0 Release
+### 2016/11/11 1.4.0 Release
