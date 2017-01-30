@@ -32,6 +32,8 @@ public class PInPMovieAdActivity extends AppCompatActivity implements
         setContentView(R.layout.activity_pin_pmovie_ad);
 
         PolymorphicAds.init(this, AdUnitIdConst.P_IN_P_AD_UNIT_ID, PolymorphicAds.AdType.PICTURE_IN_PICTURE_MOVIE);
+        PolymorphicAds.setTestMode(true);
+        PolymorphicAds.setLoggingMode(true);
 
         findViewById(R.id.load_pinp_button).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -146,6 +148,8 @@ public class PInPMovieAdActivity extends AppCompatActivity implements
     @Override
     public void onReadyPlayMovie(String adUnitId, PolymorphicAds.AdType adType) {
         Log.i(this.getClass().getSimpleName(), "AdType[" + adType.name() + "] " + getString(R.string.on_ready_play_movie));
+
+        PolymorphicAds.show(AdUnitIdConst.P_IN_P_AD_UNIT_ID, PolymorphicAds.AdPiPPositionType.LEFTTOP);
 
 //        Toast.makeText(PInPMovieAdActivity.this, "show ready movie", Toast.LENGTH_SHORT).show();
     }

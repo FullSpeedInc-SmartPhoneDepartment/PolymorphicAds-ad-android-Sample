@@ -39,6 +39,7 @@ repositories {
 }
 
 dependencies {
+
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
 
@@ -47,6 +48,7 @@ dependencies {
     compile 'com.google.android.gms:play-services-ads:9.2.0'
 
     // PolymorphicAds Android SDK
-    compile 'jp.co.fs.sp:polymorphicads-ad-sdk:1.5.0@aar'
+    compile 'jp.co.fs.sp:polymorphicads-ad-sdk:1.6.0@aar'
+
 
 }
